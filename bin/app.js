@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import getenv from 'getenv';
 
 import createWorkloadArray from '../lib/createWorkloadArray.js';
