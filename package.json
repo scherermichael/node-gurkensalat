@@ -1,14 +1,14 @@
 {
-  "name": "code",
-  "version": "1.0.0",
+  "name": "gurkensalat",
+  "version": "0.0.1",
   "description": "",
-  "exports": "./app.js",
+  "bin": "./bin/app.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "Unlicense",
   "dependencies": {
     "get-stdin": "9.0.0",
     "getenv": "1.0.0",
