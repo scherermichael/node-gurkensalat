@@ -10,7 +10,7 @@ import printLogsAndExit from '../lib/printLogsAndExit.js';
 (async () => {
   const count = process.argv[2] || getenv.int('COUNT', 1);
   const myIndex = process.argv[3] || getenv.int('MY_INDEX', 0);
-  const command = getenv('CUCUMBER_COMMAND', './node_modules/.bin/cucumber-js');
+  const command = getenv('CUCUMBER_COMMAND', 'npx cucumber-js');
 
   const workload = await createWorkloadArray();
   const myLoad = await distribute({ workload, count, index: myIndex });
