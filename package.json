@@ -1,7 +1,11 @@
 {
   "name": "gurkensalat",
-  "version": "0.0.1",
-  "description": "Slices Cucumber tests into parts that can be run on multiple machines",
+  "version": "0.0.2",
+  "description": "Slices Cucumber tests into parts that can be run on multiple machines.",
+  "keywords": [
+    "cucumber",
+    "distributed"
+  ],
   "bin": "./bin/app.js",
   "type": "module",
   "scripts": {
@@ -12,6 +16,8 @@
   "dependencies": {
     "getenv": "1.0.0",
     "glob": "7.2.0",
+    "parse-duration": "1.0.2",
+    "shelljs": "0.8.4",
     "verteiler": "0.0.1"
   }
 }
