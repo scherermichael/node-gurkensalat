@@ -1,7 +1,7 @@
 {
   "name": "gurkensalat",
   "version": "0.0.1",
-  "description": "",
+  "description": "Slices Cucumber tests into parts that can be run on multiple machines",
   "bin": "./bin/app.js",
   "type": "module",
   "scripts": {
@@ -10,9 +10,8 @@
   "author": "",
   "license": "Unlicense",
   "dependencies": {
-    "get-stdin": "9.0.0",
     "getenv": "1.0.0",
     "glob": "7.2.0",
-    "verteiler": "github:scherermichael/node-verteiler#main"
+    "verteiler": "0.0.1"
   }
 }
