@@ -54,7 +54,7 @@ By default, Gurkensalat starts Cucumber via the command `npx cucumber-js`. You c
 ```bash
 export GURKENSALAT_COMMAND="./wrapper.sh"
 npx gurkensalat
-# Runs for each feature: ./wrapper.sh --format "summary:<logfile>" <feature file>"
+# Runs for each feature: ./wrapper.sh --format "summary:<logfile>" <feature file>
 ```
 
 ## How it works
